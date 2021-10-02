@@ -1,15 +1,7 @@
-console.log("hello world!");
-
 function sum(param) {
-    var sum=0;
-    for (var i = 0; i < param.length; i++) {
-        sum += param[i];
-    };
-    return sum;
+  return ((1 + param) * param) / 2;
 }
 
-var data=[1,2,3,4]
-console.log(SumData(data));
-
-
-//好了以後 add commit push
+console.log(sum(3)); // 6
+console.log(sum(6)); // 21
+console.log(sum(10)); // 55
